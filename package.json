@@ -1,0 +1,56 @@
+{
+  "name": "mee_app",
+  "version": "1.0.0",
+  "description": "Brockerhub project made by CILABS",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "lint": "standard",
+    "now-build": "npm run build",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/montycode/mee_app.git"
+  },
+  "keywords": [],
+  "author": "CILABS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/montycode/mee_app/issues"
+  },
+  "homepage": "https://github.com/montycode/mee_app#readme",
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.0",
+    "@tailwindcss/forms": "^0.2.1",
+    "@tailwindcss/typography": "^0.3.1",
+    "autoprefixer": "^10.2.1",
+    "formik": "^1.5.2",
+    "history": "^4.9.0",
+    "moment": "^2.29.1",
+    "postcss": "^8.2.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-gravatar": "^2.6.3",
+    "react-router-dom": "^5.0.0",
+    "rxjs": "^6.3.3",
+    "tailwindcss": "^2.0.2",
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "url-loader": "^4.1.1",
+    "style-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "postcss-loader": "^4.1.0",
+    "path": "^0.12.7",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
