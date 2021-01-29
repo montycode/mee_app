@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 export const Header = ({ children }) =>  {
     return(
@@ -13,8 +14,8 @@ export const Header = ({ children }) =>  {
                         <p className="text-white">Mexicanos en el Extranjero es auspiciado por PBH Abogados, una firma de abogados
                             enfocados en brindar asesoría legal practica y efectiva.</p>
                         <div className="inline-flex">
-                            <a href="step_one.html"
-                            className="bg-gray-100 py-4 px-8 text-gray-900 font-semibold uppercase text-xs hover:bg-white ">Agenda tu cita</a>
+                            <Link to='/booking'
+                            className="bg-gray-100 py-4 px-8 text-gray-900 font-semibold uppercase text-xs hover:bg-white ">Agenda tu cita</Link>
                         </div>
                     </div>
                 </div>

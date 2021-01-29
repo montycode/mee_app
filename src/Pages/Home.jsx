@@ -1,14 +1,34 @@
 import React, { Fragment } from 'react';
 import Icon from '@/Assets/img/icn_about_pbh.png'
 import { Header, Navbar, Footer } from '@/Components'
+import { topicService } from '@/Services'
 import Logo from '@/Assets/img/pbh_blanco1.png'
 
 class Home extends React.Component {
     constructor(props) {
         super(props);
+
+        this.state = {
+            topics: null,
+            loading: false
+        };
     }
 
+    componentDidMount() {
+        this.getTopics();
+        this.setState({ loading: false })
+    }
+
+    getTopics(){
+        this.setState({ loading: true })
+        topicService.getTopics()
+        .then(topics => this.setState({ topics }))
+        .catch(err => console.log(err))
+    }   
+
     render() {
+        const { topics } = this.state;
+        console.log(topics);
         return (
             <Fragment>
                 <Header>
