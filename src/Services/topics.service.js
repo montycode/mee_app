@@ -1,16 +1,25 @@
 import config from 'config';
-import { authHeader } from '@/Helpers';
+import { handleResponse } from '@/Helpers';
 
 export const topicService = {
-    getTopics
+    getTopics,
+    getSingleTopic
 };
 
 function getTopics() {
-    const requestOptions = { method: 'GET', headers: authHeader(), mode: 'no-cors' };
+    const requestOptions = { method: 'GET' };
     return fetch(`${config.apiUrl}/topics`, requestOptions)
-    .then(response => response.json())
+    .then(handleResponse)
     .then(topics => {
-        return topics;
+        return topics.results
     });
 }
 
+function getSingleTopic(id) {
+    const requestOptions = { method: 'GET' };
+    return fetch(`${config.apiUrl}/topics/${id}`, requestOptions)
+    .then(handleResponse)
+    .then(topics => {
+        return topics.results
+    });
+}
