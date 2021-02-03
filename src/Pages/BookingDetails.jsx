@@ -6,39 +6,41 @@ import Logo from '@/Assets/img/pbh_2.png'
 export const BookingDetails = () => {
     return(
         <Fragment>          
-            <div class="w-full py-6 bg-gray-100">
-                <Navbar logo={Logo} />  
-                <div class="flex md:p-10">
-                    <div class="w-1/3">
-                        <div class="relative mb-2">
-                            <div class="w-10 h-10 mx-auto bg-gray-300 text-lg text-white flex items-center">
-                                <span class="text-center text-white w-full">
-                                    1
-                                </span>
+            <div class="w-full bg-gray-100">
+                <div className="p-4">
+                    <Navbar logo={Logo} />  
+                    <div class="flex md:p-10">
+                        <div class="w-1/3">
+                            <div class="relative mb-2">
+                                <div class="w-10 h-10 mx-auto bg-gray-300 text-lg text-white flex items-center">
+                                    <span class="text-center text-white w-full">
+                                        1
+                                    </span>
+                                </div>
                             </div>
+                            <div class="text-xs text-center md:text-base">Agendar Consulta</div>
                         </div>
-                        <div class="text-xs text-center md:text-base">Agendar Consulta</div>
-                    </div>
-                    <div class="w-1/3">
-                        <div class="relative mb-2">
-                            <div class="w-10 h-10 mx-auto bg-gray-300 text-lg text-white flex items-center">
-                                <span class="text-center text-white w-full">
-                                    2
-                                </span>
+                        <div class="w-1/3">
+                            <div class="relative mb-2">
+                                <div class="w-10 h-10 mx-auto bg-gray-300 text-lg text-white flex items-center">
+                                    <span class="text-center text-white w-full">
+                                        2
+                                    </span>
+                                </div>
                             </div>
+                            <div class="text-xs text-center md:text-base">Realiza tu pago</div>
                         </div>
-                        <div class="text-xs text-center md:text-base">Realiza tu pago</div>
-                    </div>
-                    <div class="w-1/3">
-                        <div class="relative mb-2">
-                            <div class="w-10 h-10 mx-auto bg-black text-lg text-white flex items-center">
-                                <span class="text-center text-white w-full">
-                                    3
-                                </span>
+                        <div class="w-1/3">
+                            <div class="relative mb-2">
+                                <div class="w-10 h-10 mx-auto bg-black text-lg text-white flex items-center">
+                                    <span class="text-center text-white w-full">
+                                        3
+                                    </span>
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="text-xs text-center md:text-base">Datos Personales</div>
+                            <div class="text-xs text-center md:text-base">Datos Personales</div>
+                        </div>
                     </div>
                 </div>
                 <div class="flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 bg-white">
