@@ -5,3 +5,6 @@ export * from './Register';
 export * from './Booking';
 export * from './Payment';
 export * from './BookingDetails';
+export * from './Topic';
+export * from './NotFound';
+export * from './Confirmation';
