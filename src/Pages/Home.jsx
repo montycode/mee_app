@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import Icon from '@/Assets/img/icn_about_pbh.png'
-import { Header, Navbar, Footer } from '@/Components'
+import { Header, Navbar, Footer, TopicList, TopicCard } from '@/Components'
 import { topicService } from '@/Services'
 import Logo from '@/Assets/img/pbh_blanco1.png'
 
@@ -9,13 +9,13 @@ class Home extends React.Component {
         super(props);
 
         this.state = {
-            topics: null,
+            topics: [],
             loading: false
         };
     }
 
     componentDidMount() {
-        this.getTopics();
+        this.getTopics()
         this.setState({ loading: false })
     }
 
@@ -28,7 +28,6 @@ class Home extends React.Component {
 
     render() {
         const { topics } = this.state;
-        console.log(topics);
         return (
             <Fragment>
                 <Header>
@@ -60,6 +59,9 @@ class Home extends React.Component {
                         </p>
                     </div>
                 </div>
+                <TopicList>
+                    {topics.map((topic) => <TopicCard key={topic.id} {...topic} />)}
+                </TopicList>
                 <Footer />
             </Fragment>
         );
