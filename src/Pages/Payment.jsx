@@ -39,7 +39,7 @@ export const Payment = () => {
                                 </div>
                             </div>
 
-                            <div className="text-xs text-center md:text-base">Datos Personales</div>
+                            <div className="text-xs text-center md:text-base">Confirmación</div>
                         </div>
                     </div>
                 </div>
