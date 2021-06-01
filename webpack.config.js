@@ -5,7 +5,6 @@ const path = require('path');
 
 module.exports = {
     mode: 'production',
-    hints: false,
     performance: {
         hints: false
     },
