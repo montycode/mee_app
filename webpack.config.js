@@ -12,7 +12,7 @@ module.exports = {
       index: path.resolve(__dirname, 'src/index.js'),
     },
     output: {
-      path: path.resolve(__dirname, 'dist'),
+      path: path.resolve(__dirname, 'build'),
       filename: 'app.bundle.js',
       publicPath: '/'
     },
@@ -79,24 +79,24 @@ module.exports = {
         },
         icons: [
           {
-            src: path.resolve('src/assets/img/pbh_icon.png'),
+            src: path.resolve('src/Assets/img/pbh_icon.png'),
             sizes: [120, 152, 167, 180, 1024],
             destination: path.join('icons', 'ios'),
             ios: true
           },
           {
-            src: path.resolve('src/assets/img/pbh_icon.png'),
+            src: path.resolve('src/Assets/img/pbh_icon.png'),
             size: 1024,
             destination: path.join('icons', 'ios'),
             ios: 'startup'
           },
           {
-            src: path.resolve('src/assets/img/pbh_icon.png'),
+            src: path.resolve('src/Assets/img/pbh_icon.png'),
             sizes: [36, 48, 72, 96, 144, 192, 512],
             destination: path.join('icons', 'android')
           },
           {
-              src: path.resolve('src/assets/img/pbh_icon.png'),
+              src: path.resolve('src/Assets/img/pbh_icon.png'),
               size: '1024x1024',
               purpose: 'maskable'
           }
