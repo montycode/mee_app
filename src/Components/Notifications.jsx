@@ -21,9 +21,9 @@ export const Notifications = () => {
                 <div class="flex items-center px-2 py-3">
                     <img class="w-10 h-10 object-cover rounded-full" src={Logo} />
                     <div class="mx-3">
-                    <h2 class="text-xl font-semibold text-gray-800">{notification.title}</h2>
-                    <p class="text-gray-600">{notification.body}.</p>
-                    <button className="border border-gray-700 bg-gray-700 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-gray-800 focus:outline-none focus:shadow-outline" onClick={() => setShow(false)}>Cerrar</button>
+                        <h2 class="text-sm font-semibold text-gray-800">{notification.title}</h2>
+                        <p class="text-gray-600 text-xs">{notification.body}.</p>
+                        <button className="border border-gray-700 bg-gray-700 text-white rounded-md px-2 py-1 transition duration-500 ease select-none hover:bg-gray-800 focus:outline-none focus:shadow-outline" onClick={() => setShow(false)}>Cerrar</button>
                     </div>
                 </div>
             </div>
