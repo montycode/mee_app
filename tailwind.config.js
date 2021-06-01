@@ -166,6 +166,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
+        'Helvetica',//using first
         'ui-sans-serif',
         'system-ui',
         '-apple-system',
@@ -355,6 +356,7 @@ module.exports = {
       '1/4': '25%',
       '2/4': '50%',
       '3/4': '75%',
+      '4/4': '100%',
       '1/5': '20%',
       '2/5': '40%',
       '3/5': '60%',
@@ -717,6 +719,8 @@ module.exports = {
       30: '30',
       40: '40',
       50: '50',
+      75: '75',
+      100: '100',
     },
   },
   variantOrder: [

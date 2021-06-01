@@ -1,8 +1,11 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useState, useEffect } from 'react'
 import Icon from '@/Assets/img/icn_about_pbh.png'
 import { Header, Navbar, Footer, TopicList, TopicCard } from '@/Components'
 import { topicService } from '@/Services'
 import Logo from '@/Assets/img/pbh_blanco1.png'
+import { authenticationService } from '@/Services'
+import { userService } from '@/Services'
+
 
 class Home extends React.Component {
     constructor(props) {
@@ -10,27 +13,56 @@ class Home extends React.Component {
 
         this.state = {
             topics: [],
-            loading: false
+            loading: false,
+            open: true,
+            currentUser: null
         };
+        this.loca
     }
+
 
     componentDidMount() {
         this.getTopics()
         this.setState({ loading: false })
+        this.setState({ currentUser: authenticationService.currentUserValue })
     }
-
-    getTopics(){
+    closeModal() {
+        this.setState({ open: false })
+    }
+    getTopics() {
         this.setState({ loading: true })
         topicService.getTopics()
-        .then(topics => this.setState({ topics }))
-        .catch(err => console.log(err))
-    }   
+            .then(topics => this.setState({ topics }))
+            .catch(err => console.log(err))
+    }
 
     render() {
         const { topics } = this.state;
+        const { state } = this.props.location;
+        let is_lawyer
+        if (state) {
+            is_lawyer = state.is_lawyer;
+        }
+        // console.log(is_lawyer, state)
         return (
             <Fragment>
-                <Header>
+                {/* {
+                    this.state.currentUser
+                        ?
+                        <></>
+                        :
+                        <dialog class={`${this.state.open ? '' : 'hidden'} bg-gray-500 bg-opacity-70 my-auto z-10 w-screen h-screen text-black flex items-center justify-center`}>
+                            <div class="bg-white w-11/12 h-10/12 md:w-2/3 md:h-5/12 mx-auto my-auto m-3 p-10">
+                                <p class="m-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ab deleniti corrupti saepe et cupiditate eius laboriosam blanditiis eos fugit autem recusandae iusto dignissimos officia repellat nostrum, quam aspernatur id.</p>
+                                    <TermsConditions />
+                                <button onClick={() => this.closeModal()} class="my-2 mx-0 relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium text-gray-100 bg-gray-900  hover:bg-black">Aceptar</button>
+                            </div>
+                        </dialog>
+
+                } */}
+
+
+                <Header is_lawyer={is_lawyer}>
                     <Navbar logo={Logo} />
                 </Header>
                 <div className="py-16">
@@ -46,7 +78,7 @@ class Home extends React.Component {
                                 resolver sus necesidades de índole legal.</p>
                             </div>
                             <div className="lg:w-5/12">
-                                <img src={Icon} alt="" className="rounded"/>
+                                <img src={Icon} alt="" className="rounded" />
                             </div>
                         </div>
                     </div>

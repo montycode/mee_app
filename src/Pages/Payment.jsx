@@ -10,36 +10,46 @@ export const Payment = () => {
                 <div className="p-4">
                     <Navbar logo={Logo} />  
                     <div className="flex md:p-10">
-                        <div className="w-1/3">
+                        <div className="w-1/4">
                             <div className="relative mb-2">
                                 <div className="w-10 h-10 mx-auto bg-gray-300 text-lg text-white flex items-center">
                                     <span className="text-center text-white w-full">
                                         1
-                                    </span>
+                        </span>
                                 </div>
                             </div>
                             <div className="text-xs text-center md:text-base">Agendar Consulta</div>
                         </div>
-                        <div className="w-1/3">
+                        <div className="w-1/4">
                             <div className="relative mb-2">
                                 <div className="w-10 h-10 mx-auto bg-black text-lg text-white flex items-center">
                                     <span className="text-center text-white w-full">
                                         2
-                                    </span>
+                        </span>
                                 </div>
                             </div>
                             <div className="text-xs text-center md:text-base">Realiza tu pago</div>
                         </div>
-                        <div className="w-1/3">
+                        <div className="w-1/4">
                             <div className="relative mb-2">
                                 <div className="w-10 h-10 mx-auto bg-gray-300 text-lg text-white flex items-center">
                                     <span className="text-center text-white w-full">
                                         3
-                                    </span>
+                        </span>
+                                </div>
+                            </div>
+                            <div className="text-xs text-center md:text-base">Comentarios</div>
+                        </div>
+                        <div className="w-1/4">
+                            <div className="relative mb-2">
+                                <div className="w-10 h-10 mx-auto bg-gray-300 text-lg text-white flex items-center">
+                                    <span className="text-center text-white w-full">
+                                        4
+                        </span>
                                 </div>
                             </div>
 
-                            <div className="text-xs text-center md:text-base">Confirmación</div>
+                            <div className="text-xs text-center md:text-base">Confirmación de cita</div>
                         </div>
                     </div>
                 </div>

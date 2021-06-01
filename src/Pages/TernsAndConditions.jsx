@@ -1,0 +1,192 @@
+import React from 'react'
+
+export const TernsAndConditions = () => {
+    return (
+        <div className="p-10 m-5 text-justify">
+            <a href="https://emenu.live/mee/terms.pdf" target="" rel="noopener noreferrer"><b>DESCARGAR</b></a>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p><strong>MEXICANOS EN EL EXTRANJERO</strong></p>
+            <p><strong>T&Eacute;RMINOS Y CONDICIONES</strong></p>
+            <p><strong>&nbsp;</strong></p>
+            <p>&nbsp;</p>
+            <p>Bienvenido al Sitio Web www.mexicanosenelextranjero.org (en lo sucesivo el &ldquo;Sitio Web&rdquo;).</p>
+            <p>&nbsp;</p>
+            <p>Los t&eacute;rminos &ldquo;nosotros&rdquo;, &ldquo;nos&rdquo;, &ldquo;nuestro&rdquo; hacen referencia a Mexicanos en el Extranjero (en lo sucesivo MEE). El t&eacute;rmino &ldquo;usted&rdquo;, &ldquo;usuario&rdquo;, &ldquo;cliente&rdquo; hace referencia al cliente que visita o se registra en el&nbsp; Sitio Web. El t&eacute;rmino &ldquo;proveedor&rdquo; hace referencia a la persona f&iacute;sica o moral que es titular de los servicios que se ofertan en el Sitio Web, tales como servicios jur&iacute;dicos.</p>
+            <p>&nbsp;</p>
+            <p>Al Usuario se le ofrece este Sitio Web siempre y cuando acepte, sin modificaciones, todos los t&eacute;rminos, las condiciones y los avisos establecidos a continuaci&oacute;n (conjuntamente el &ldquo;Acuerdo&rdquo;). Al acceder o usar este Sitio Web de alguna manera, el Usuario conviene en estar vinculado por el presente Acuerdo y declara haber le&iacute;do y comprendido sus t&eacute;rminos. Le solicitamos de la manera m&aacute;s atenta que todo Usuario que lea el Acuerdo atentamente, ya que contiene informaci&oacute;n relacionada con los servicios ofertados en el Sitio Web, sus derechos legales y limitaciones sobre estos derechos, as&iacute; como tambi&eacute;n una secci&oacute;n relacionada con las leyes aplicables y la jurisdicci&oacute;n en caso de disputas. Si usted no acepta todos los t&eacute;rminos y condiciones, no use este&nbsp; Sitio Web, al utilizar los servicios de MEE, implica que usted ha le&iacute;do y aceptado los t&eacute;rminos y condiciones aqu&iacute; establecidos.</p>
+            <p>&nbsp;</p>
+            <p>Es posible que cambiemos o modifiquemos el Acuerdo en un futuro, por lo que el Usuario comprende y conviene que si contin&uacute;a accediendo o utilizando este Sitio Web despu&eacute;s de cualquier cambio, esto significa que acepta el Acuerdo actualizado o modificado. Indicaremos la fecha en que se realizaron las revisiones de este Acuerdo por &uacute;ltima vez en la parte inferior de esta p&aacute;gina, y todas las revisiones entrar&aacute;n en vigencia al publicarse. Notificaremos a nuestros Usuarios registrados sobre cambios sustanciales en los presentes t&eacute;rminos y condiciones al enviar un aviso a la direcci&oacute;n de correo electr&oacute;nico proporcionada al momento del registro o al publicar un aviso en nuestro Sitio Web. Aseg&uacute;rese de consultar esta p&aacute;gina peri&oacute;dicamente para revisar la versi&oacute;n m&aacute;s reciente de este Acuerdo.</p>
+            <p>&nbsp;</p>
+            <p><strong>MEXICANOS EN EL EXTRANJERO: LA EMPRESA Y EL SERVICIO</strong></p>
+            <p><strong>&nbsp;</strong></p>
+            <p>MEE es propiedad de ____________________________, domiciliada en la ciudad de Tijuana, Baja California.</p>
+            <p>&nbsp;</p>
+            <p>MEE es un Sitio Web que tiene como &uacute;nico objetivo proporcionar una plataforma de internet para proporcionar informaci&oacute;n y orientaci&oacute;n a los Usuarios sobre diversos servicios, entre estos servicios de &iacute;ndole jur&iacute;dico ofrecidos en M&eacute;xico y desde Mexico por el &ldquo;Proveedor&rdquo; y agendar reuniones a trav&eacute;s de videollamadas para asesor&iacute;a jur&iacute;dica y en su caso la prestaci&oacute;n de servicios jur&iacute;dicos a cargo exclusivo de el &ldquo;Proveedor&rdquo;.</p>
+            <p>&nbsp;</p>
+            <p>MEE cuenta con Proveedores registrados que informan sus tarifas y disponibilidad a trav&eacute;s de la vinculaci&oacute;n a nuestro Sitio Web, para que as&iacute; los Usuarios puedan realizar consultas sobre temas legales y en su caso contratar o no un servicio legal, estableci&eacute;ndose as&iacute; una relaci&oacute;n contractual entre el Usuario y el Proveedor.</p>
+            <p>&nbsp;</p>
+            <p>Queda entendido que MEE act&uacute;a &uacute;nicamente como intermediario no comercial entre el Usuario y el Proveedor, y MEE redireccionar&aacute; al cliente al Sitio Web del Proveedor para la contrataci&oacute;n del servicio, por lo que, MEE se deslinda de cualquier responsabilidad de cualquier tipo en la que pudiera incurrir el Proveedor y/o sus abogados o proveedores asociados para con el Usuario.</p>
+            <p>&nbsp;</p>
+            <p><strong>USO DEL SITIO WEB</strong></p>
+            <p>&nbsp;</p>
+            <p>Como condici&oacute;n de uso de este Sitio Web, usted garantiza que (i) toda la informaci&oacute;n que proporciona en este Sitio Web es verdadera, precisa y completa, (ii) que si se encuentra inscrito a nuestro newsletter, usted deber&aacute; proteger su informaci&oacute;n y (iii) que tiene mayoria de edad o m&aacute;s para hacer uso. MEE no recaba a sabiendas la informaci&oacute;n de ninguna persona menor de edad de edad. Conservamos el derecho, a nuestro exclusivo criterio, de denegar el acceso a cualquier persona a este&nbsp; Sitio Web y/o Aplicaci&oacute;n M&oacute;vil y a los servicios que ofrecemos, en cualquier momento y por cualquier motivo, lo que incluye, entre otros, la infracci&oacute;n de este Acuerdo.</p>
+            <p>&nbsp;</p>
+            <p>Como condici&oacute;n de uso, el Usuario se obliga a usar el Sitio Web, conforme a lo establecido en el presente Acuerdo, en la ley, moral y orden p&uacute;blico. Asimismo, el Usuario es responsable de la totalidad de su actividad en relaci&oacute;n con el servicio, y se obliga a hacer uso adecuado del servicio,&nbsp; Sitio Web y contenido y a no usarlo para realizar actividades il&iacute;citas o constitutivas de delito que atenten contra los derechos humanos, civiles, pol&iacute;ticos, econ&oacute;micos o de cualquier &iacute;ndole de terceros y/o que infrinjan la regulaci&oacute;n sobre propiedad intelectual o industrial, o cualquier otra norma de ordenamiento jur&iacute;dico que puedan resultar aplicables y, en especial, el principio de buena fe que obliga a actuar, leal, correcta y honestamente tanto en los tratos preliminares, celebraci&oacute;n y ejecuci&oacute;n de todo contrato.</p>
+            <p>&nbsp;</p>
+            <p><strong>REGISTRO E INSCRIPCI&Oacute;N</strong></p>
+            <p><strong>&nbsp;</strong></p>
+            <p>Todos los visitantes del Sitio Web, registrados o no, son considerados Usuarios, no obstante, el uso de determinados servicios, como por ejemplo recibir informaci&oacute;n, contratar servicios, acceder a promociones, entre otros servicios.</p>
+            <p>&nbsp;</p>
+            <p>Para proceder al registro, el Usuario deber&aacute; proveer un correo electr&oacute;nico. Al hacer esto, el Usuario autoriza a&nbsp; MEE a usar este correo electr&oacute;nico para enviarle notificaciones requeridas por ley, en vez de usar el correo postal, junto con otros mensajes y comunicaciones, incluyendo poder contactarlo, enviarle cambios en las caracter&iacute;sticas del servicio, ofertas especiales y enviarle material de difusi&oacute;n, marketing y promoci&oacute;n, entre otros.</p>
+            <p>&nbsp;</p>
+            <p>El Usuario asumir&aacute; el compromiso de actualizar su correo electr&oacute;nico cada vez que el mismo sea modificado.</p>
+            <p>&nbsp;</p>
+            <p>En caso que MEE considere, a su sola discreci&oacute;n, que no se ha cumplido a cabalidad todo lo establecido en el presente Contrato, se reserva el derecho de rechazar cualquier solicitud de registro o de cancelar un registro previamente aceptado, sin estar obligada a comunicar o exponer las razones de su decisi&oacute;n y sin que esto genere derecho a indemnizaci&oacute;n o compensaci&oacute;n alguna a favor del Usuario.</p>
+            <p>&nbsp;</p>
+            <p>Ninguna persona menor de edad, podr&aacute; registrarse.</p>
+            <p><strong>&nbsp;</strong></p>
+            <p><strong>ACTIVIDADES PROHIBIDAS</strong></p>
+            <p><strong>&nbsp;</strong></p>
+            <p>El contenido y la informaci&oacute;n en este Sitio Web (lo que incluye, de manera enunciativa m&aacute;s no limitativa, los mensajes, los datos, la informaci&oacute;n, el texto, la m&uacute;sica, los sonidos, las fotograf&iacute;as, los gr&aacute;ficos, los videos, los mapas, los &iacute;conos, el software, el c&oacute;digo y otros materiales), as&iacute; como la infraestructura utilizada para brindar dicho contenido e informaci&oacute;n, es propiedad &uacute;nica y exclusivamente de MEE o de sus Proveedores registrados o de terceros. Usted conviene en no modificar, copiar, distribuir, transmitir, mostrar, realizar, reproducir, publicar, licenciar, crear trabajos derivados de, transferir, vender o revender cualquier informaci&oacute;n, software, productos o servicios obtenidos de este Sitio Web o a trav&eacute;s de este Sitio Web. Adem&aacute;s, usted acuerda no realizar las siguientes acciones:</p>
+            <p>&nbsp;</p>
+            <ul>
+                <li>(i) Usar este Sitio Web o su contenido con fines comerciales;</li>
+                <li>(ii) Acceder, monitorear o copiar cualquier contenido o informaci&oacute;n de este Sitio Web mediante cualquier medio rob&oacute;tico,&nbsp;<em>spider</em>,&nbsp;<em>scraper</em>&nbsp;u otro medio autom&aacute;tico o cualquier proceso manual por ning&uacute;n motivo sin el permiso expreso por escrito;</li>
+                <li>(iii) Violar las restricciones en cualquier encabezado de exclusi&oacute;n rob&oacute;tico en este Sitio Web o evitar o eludir cualquier medida utilizada para evitar o limitar el acceso a este Sitio Web;</li>
+                <li>(iv) Tomar cualquier medida que imponga, o pueda imponer, a nuestro criterio, una carga irrazonable o desproporcionada en nuestra infraestructura;</li>
+                <li>(v) Realizar un v&iacute;nculo a cualquier parte de este Sitio Web por cualquier motivo sin el permiso expreso por escrito; o</li>
+                <li>(vi) &ldquo;Enmarcar&rdquo;, &ldquo;reflejar&rdquo; o de otro modo incorporar cualquier parte de este Sitio Web en cualquier otro sitio web sin nuestra autorizaci&oacute;n previa por escrito.</li>
+                <li>(vii) Tratar de modificar, traducir, adaptar, editar, descompilar, deshacer o revertir la ingenier&iacute;a de cualquier programa de software utilizado por MEE en relaci&oacute;n con el Sitio Web o los servicios.</li>
+            </ul>
+            <p>&nbsp;</p>
+            <p><strong>POL&Iacute;TICAS DE PRIVACIDAD Y DIVULGACI&Oacute;N</strong></p>
+            <p><strong>&nbsp;</strong></p>
+            <p>MEE cree en la protecci&oacute;n de su privacidad. Haga clic aqu&iacute; para consultar nuestras Pol&iacute;ticas de Privacidad&nbsp;actuales, que tambi&eacute;n regulan el uso del Sitio Web, a fin de comprender nuestras pr&aacute;cticas.</p>
+            <p>&nbsp;</p>
+            <p>En algunas circunstancias, podemos divulgar informaci&oacute;n sobre usted a terceros si determinamos, a nuestro exclusivo criterio, que dicha divulgaci&oacute;n es necesaria (i) para proteger los sistemas, los recursos, los empleados, los miembros y los clientes de MEE; (ii) para garantizar la integridad y el funcionamiento de los negocios y sistemas de MEE; o (c) para cumplir con las solicitudes, las notificaciones o las &oacute;rdenes judiciales gubernamentales leg&iacute;timas y exigibles. Es posible que optemos por cumplir o descartar dichas solicitudes u &oacute;rdenes a nuestro exclusivo criterio. El derecho de MEE a divulgar la direcci&oacute;n de correo electr&oacute;nico, la direcci&oacute;n IP y la informaci&oacute;n de tr&aacute;fico, el historial de uso y el Contenido publicado, tendr&aacute; prioridad sobre cualquiera de los t&eacute;rminos de las&nbsp;Pol&iacute;ticas de Privacidad&nbsp;de MEE.</p>
+            <p>&nbsp;</p>
+            <p><strong>OPINIONES, COMENTARIOS Y USO DE OTRAS &Aacute;REAS INTERACTIVAS</strong></p>
+            <p><strong>&nbsp;</strong></p>
+            <p>Este Sitio Web puede contener foros de discusi&oacute;n, blogs, tableros de anuncios, servicios de revisi&oacute;n u otros foros en los que usted o terceros pueden publicar opiniones sobre experiencias de servicios adquiridos mediante el Sitio Web u otro contenido, mensajes, materiales u otros elementos en este Sitio Web (&ldquo;&Aacute;reas interactivas&rdquo;). Si MEE brinda dichas &Aacute;reas Interactivas, usted es el &uacute;nico responsable del uso que haga de dichas &Aacute;reas Interactivas y las utilizar&aacute; bajo su propio riesgo. Al utilizar cualquiera de las &Aacute;reas Interactivas, conviene expresamente en abstenerse de publicar, cargar, transmitir, distribuir, almacenar, crear o publicar de otro modo a trav&eacute;s de este Sitio Web lo siguiente:</p>
+            <p>&nbsp;</p>
+            <ul>
+                <li>(i) Mensajes, datos, informaci&oacute;n, texto, m&uacute;sica, sonidos, fotos, gr&aacute;ficos, c&oacute;digos u otros materiales (&ldquo;Contenido&rdquo;) que sea ilegal, injurioso, difamatorio, obsceno, pornogr&aacute;fico, indecente, lascivo, alusivo, con hostigamiento, amenazante, invasivo de la privacidad o de los derechos de publicidad, abusivo, difamatorio, fraudulento o de alg&uacute;n modo impugnable;</li>
+                <li>(ii) Contenido que constituir&iacute;a, instar&iacute;a o brindar&iacute;a instrucciones sobre c&oacute;mo cometer un delito penal, violar los derechos de cualquier parte o que de otro modo generar&iacute;a responsabilidad o violar&iacute;a cualquier ley local, estatal, nacional o internacional.</li>
+                <li>(iii) Contenido que pueda infringir cualquier patente, marca registrada, secreto comercial, derechos de autor u otro derecho intelectual o de propiedad de cualquier tercero;</li>
+                <li>(iv) Contenido que suplante a cualquier persona o entidad o que de otro modo represente err&oacute;neamente su afiliaci&oacute;n con una persona o entidad, incluido MEE;</li>
+                <li>(v) Promociones, campa&ntilde;as pol&iacute;ticas, anuncios, concursos, rifas o peticiones no solicitados;</li>
+                <li>(vi) Informaci&oacute;n privada de cualquier tercero, lo que incluye, sin l&iacute;mites, el apellido (de familia), direcciones, n&uacute;mero de tel&eacute;fono, direcciones de correo electr&oacute;nico, n&uacute;meros del seguro social y n&uacute;meros de tarjeta de cr&eacute;dito;</li>
+                <li>(vii) Virus, datos de computadora u otros archivos perjudiciales o destructivos;</li>
+                <li>(viii) Contenido que no se relaciona con el tema de las &Aacute;reas Interactivas en las que se publica el Contenido; o</li>
+                <li>(vii) Contenido o v&iacute;nculos a contenido que, seg&uacute;n el exclusivo criterio de MEE, (a) viole los puntos anteriores del presente, (b) sea impugnable, (c) restrinja o evite que cualquier otra persona use o goce las &Aacute;reas Interactivas o este Sitio Web y/o Aplicaci&oacute;n M&oacute;vil, o (d) que pueda exponer a MEE o sus Proveedores o sus Usuarios a cualquier da&ntilde;o o responsabilidad de cualquier tipo.</li>
+            </ul>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p>MEE no se responsabiliza ni asume ninguna responsabilidad por cualquier Contenido publicado, almacenado o cargado por usted o un tercero, o por cualquier p&eacute;rdida o da&ntilde;o a este, ni se hace responsable por errores, difamaci&oacute;n, calumnias, exposiciones, omisiones, falsedades, obscenidades, pornograf&iacute;a o profanidades que usted pueda encontrar. Como proveedor de servicios interactivos, MEE no se responsabiliza por manifestaciones, declaraciones o Contenido provisto por sus usuarios parte del Sitio Web. Aunque MEE no tenga la obligaci&oacute;n de evaluar, editar o monitorear cualquier Contenido publicado o distribuido mediante cualquier &Aacute;rea Interactiva, MEE se reserva el derecho, a su absoluta discreci&oacute;n, de eliminar, evaluar, traducir o editar sin aviso cualquier Contenido publicado o almacenado en este Sitio Web en cualquier momento y por cualquier motivo, o hacer que dichas acciones sean realizadas por terceros en su nombre, y usted es el &uacute;nico responsable de crear copias de seguridad y reemplazar cualquier Contenido que publique o almacene en este Sitio Web a su exclusivo costo y cargo.</p>
+            <p>&nbsp;</p>
+            <p>Cualquier uso de las &Aacute;reas Interactivas u otras partes de este Sitio Web en infracci&oacute;n de lo anteriormente dicho infringe los t&eacute;rminos de este Acuerdo y puede provocar, entre otras cosas, la rescisi&oacute;n o suspensi&oacute;n de sus derechos a usar las &Aacute;reas Interactivas o este Sitio Web.</p>
+            <p>&nbsp;</p>
+            <p><strong>CONTRATACI&Oacute;N DE SERVICIOS CON TERCEROS PROVEEDORES A TRAV&Eacute;S DE MEE</strong></p>
+            <p><strong>&nbsp;</strong></p>
+            <p>MEE le ofrece la posibilidad de buscar e intermediar sin fines de lucro y seleccionar, hacer reservaciones o contrataci&oacute;n de servicios legales con terceros Proveedores.</p>
+            <p>&nbsp;</p>
+            <p>Mediante la contrataci&oacute;n de servicios ofrecidos por MEE, a trav&eacute;s de sus Proveedores reconoce que acepta las pr&aacute;cticas descritas en nuestras&nbsp;Pol&iacute;ticas de Privacidad&nbsp;y estos T&eacute;rminos y Condiciones. Adem&aacute;s, garantiza que es mayor de edad o m&aacute;s, que posee facultades legales para celebrar este Acuerdo y que hace uso de este Sitio Web de acuerdo con estos T&eacute;rminos y Condiciones, y que toda la informaci&oacute;n que brinda es precisa y verdadera. Se proh&iacute;ben las interacciones, contrataciones, compras o reservaciones falsas y/o fraudulentas.</p>
+            <p>&nbsp;</p>
+            <p>COMO USUARIO DE ESTE SITIO WEB, COMPRENDE Y CONVIENE QUE NI MEE NI SUS PROVEEDORES TENDR&Aacute;N RESPONSABILIDADES CON USTED O CON OTROS POR CUALQUIER TRANSACCI&Oacute;N NO AUTORIZADA QUE SE REALICE.</p>
+            <p>&nbsp;</p>
+            <p>Cuando haga una reservaci&oacute;n, pago de servicio o compra en l&iacute;nea a algun &ldquo;Proveedor&rdquo;, recabaremos si es posible su informaci&oacute;n de pago y s&oacute;lo en&nbsp; el caso de ser aprobado su pago, se completar&aacute; su reservaci&oacute;n o compra.</p>
+            <p>&nbsp;</p>
+            <p>Los precios publicados por el &ldquo;Proveedor&rdquo; en cada contenido son netos, por lo que ya incluyen el IVA correspondiente (en caso de aplicar).</p>
+            <p>&nbsp;</p>
+            <p>Los precios publicados por cualquier &ldquo;Proveedor&rdquo; pueden variar sin previo aviso, por lo que se recomienda al los Usuarios que accedan peri&oacute;dicamente al Sitio Web y/o Aplicaci&oacute;n M&oacute;vil para conocer las tarifas aplicables en cada momento.</p>
+            <p>&nbsp;</p>
+            <p>MEE y sus Proveedores no interferir&aacute;n con las reservaciones o compras en l&iacute;nea de manera arbitraria, pero nos reservamos el derecho de cancelar o no procesar una reservaci&oacute;n o compra debido a ciertas circunstancias atenuantes, como cuando una reservaci&oacute;n o producto ya no se encuentra disponible o cuando tengamos motivos razonables para creer que una solicitud de reservaci&oacute;n o compra puede ser fraudulenta. MEE tambi&eacute;n se reserva el derecho de tomar las medidas necesarias para verificar su identidad a fin de procesar su reservaci&oacute;n.</p>
+            <p>&nbsp;</p>
+            <p>En caso de que, una vez efectuado el pago, el Usuario desee cancelar la compra o reservaci&oacute;n del producto o servicio adquirido a trav&eacute;s del Sitio Web y/o Aplicaci&oacute;n M&oacute;vil, no tendr&aacute; derecho a reclamar reembolso alguno por parte de MEE. &Uacute;nicamente existir&aacute; reembolso por parte de MEE en los casos en los que sea directamente responsable por la cancelaci&oacute;n de la compra o reserva del producto o servicio adquirido.</p>
+            <p>&nbsp;</p>
+            <p>En el caso poco probable de que la reservaci&oacute;n o producto se encuentre disponible cuando haga un pedido, pero ya no se encuentre disponible antes de ser utilizado, su &uacute;nica soluci&oacute;n ser&aacute; ponerse en contacto con el Proveedor para hacer arreglos alternativos o para cancelar su reservaci&oacute;n.</p>
+            <p>&nbsp;</p>
+            <p>Para obtener m&aacute;s informaci&oacute;n sobre los dep&oacute;sitos de garant&iacute;a, el procesamiento de pagos, y las cancelaciones y los reembolsos, consulte los T&eacute;rminos y Condiciones de los sitios web de nuestros Proveedores. Al hacer una reservaci&oacute;n o compra facilitada por uno de nuestros Proveedores, usted reconoce y acepta los T&eacute;rminos y Condiciones y las Pol&iacute;ticas de Privacidad del Sitio Web y/o Aplicaci&oacute;n M&oacute;vil de ese Proveedor.</p>
+            <p>&nbsp;</p>
+            <p><strong>RELACI&Oacute;N MEE CON </strong><strong>TERCEROS PROVEEDORES</strong></p>
+            <p>&nbsp;</p>
+            <p>Todos los Proveedores de los cuales se oferten sus servicios o productos mediante el Sitio Web y/o Aplicaci&oacute;n M&oacute;vil, se entiende que han dado su autorizaci&oacute;n para que MEE utilice sus marcas, nombres comerciales, logotipos, as&iacute; como para que hagan p&uacute;blicas las fotograf&iacute;as que proporcionaron con antelaci&oacute;n a MEE para ser publicadas en el Sitio Web y/o Aplicaci&oacute;n M&oacute;vil. Asimismo, los Proveedores han dado su autorizaci&oacute;n a MEE para que hagan p&uacute;blica su ubicaci&oacute;n, p&aacute;gina web, redes sociales y sus datos de contacto como correo electr&oacute;nico y tel&eacute;fono.</p>
+            <p>&nbsp;</p>
+            <p>Los Proveedores dan autorizaci&oacute;n a MEE para que realicen publicidad de sus productos y servicios a trav&eacute;s del Sitio Web y/o Aplicaci&oacute;n M&oacute;vil.</p>
+            <p>&nbsp;</p>
+            <p><strong>RELACI&Oacute;N USUARIOS CON </strong><strong>TERCEROS PROVEEDORES</strong></p>
+            <p>&nbsp;</p>
+            <p>MEE no respalda ni recomienda los productos o servicios de ning&uacute;n tercero Proveedor. Usted conviene en que MEE no se responsabiliza por la precisi&oacute;n o la integridad de la informaci&oacute;n que obtiene de terceros Proveedores y que muestra en su Sitio Web y/o Aplicaci&oacute;n M&oacute;vil.</p>
+            <p>&nbsp;</p>
+            <p>Si hace una reservaci&oacute;n o compra con un tercero Proveedor, usted acuerda consultar y quedar vinculado por los t&eacute;rminos y condiciones de compra y de uso del sitio del Proveedor, las pol&iacute;ticas de privacidad y cualquier otra regla o pol&iacute;tica relacionada con el sitio o la propiedad del Proveedor. Sus interacciones con terceros Proveedores son bajo su propio riesgo. MEE no se har&aacute; responsable por los actos, las omisiones, los errores, las declaraciones, las garant&iacute;as, las infracciones o la negligencia de cualquier tercero Proveedor o por cualquier lesi&oacute;n personal, muerte, da&ntilde;o a la propiedad u otros da&ntilde;os o gastos generados de sus interacciones con los terceros Proveedores.</p>
+            <p>&nbsp;</p>
+            <p>Este Sitio Web y/o Aplicaci&oacute;n M&oacute;vil puede vincularlo a los sitios del Proveedor o a otros sitios web que MEE no opere ni controle. Para obtener m&aacute;s informaci&oacute;n, consulte la secci&oacute;n &ldquo;V&iacute;nculos a sitios de terceros&rdquo; a continuaci&oacute;n.</p>
+            <p>&nbsp;</p>
+            <p><strong>EXENCI&Oacute;N DE RESPONSABILIDAD</strong></p>
+            <p>&nbsp;</p>
+            <p>LEA ESTA SECCI&Oacute;N ATENTAMENTE. ESTA SECCI&Oacute;N LIMITA LA RESPONSABILIDAD DE MEE ANTE USTED EN CUANTO A PROBLEMAS QUE PUDIERAN SURGIR EN RELACI&Oacute;N CON EL USO QUE USTED HAGA DE ESTE SITIO WEB Y/O APLICACI&Oacute;N M&Oacute;VIL. SI NO COMPRENDE LOS T&Eacute;RMINOS DE ESTA SECCI&Oacute;N O DE CUALQUIER PARTE DEL ACUERDO, CONSULTE A UN ABOGADO PARA QUE SE LOS ACLARE ANTES DE ACCEDER O USAR ESTE SITIO WEB Y/O APLICACI&Oacute;N M&Oacute;VIL.</p>
+            <p>&nbsp;</p>
+            <p>LA INFORMACI&Oacute;N, EL SOFTWARE, LOS PRODUCTOS Y LOS SERVICIOS PUBLICADOS EN ESTE SITIO WEB Y/O APLICACI&Oacute;N M&Oacute;VIL PUEDEN INCLUIR IMPRECISIONES O ERRORES, INCLUIDOS LOS ERRORES EN LA DISPONIBILIDAD DE LA RESERVACI&Oacute;N Y EN LOS PRECIOS. MEE NO GARANTIZA LA PRECISI&Oacute;N, Y QUEDA EXENTA DE RESPONSABILIDAD POR, CUALQUIER ERROR U OTRAS IMPRECISIONES RELACIONADAS CON LA INFORMACI&Oacute;N Y LA DESCRIPCI&Oacute;N DEL PRODUCTO O SERVICIO (LO QUE INCLUYE, ENTRE OTROS, LOS PRECIOS, LA DISPONIBILIDAD, LAS FOTOGRAF&Iacute;AS, LAS DESCRIPCIONES GENERALES DEL SERVICIO Y/O PRODUCTO, LAS OPINIONES Y CALIFICACIONES, ETC.). ADEM&Aacute;S, MEE EXPRESAMENTE SE RESERVA EL DERECHO DE CORREGIR CUALQUIER ERROR DE DISPONIBILIDAD Y PRECIOS EN NUESTRO SITIO WEB Y/O APLICACI&Oacute;N M&Oacute;VIL Y/O EN RESERVACIONES PENDIENTES REALIZADAS CONFORME A UN PRECIO INCORRECTO.</p>
+            <p>&nbsp;</p>
+            <p>LA INFORMACI&Oacute;N, SOFTWARE, PRODUCTOS Y SERVICIOS QUE SE BRINDAN EN SITIO WEB Y/O APLICACI&Oacute;N M&Oacute;VIL, SE BRINDAN &ldquo;EN EL ESTADO EN QUE SE ENCUENTRAN&rdquo; SIN GARANT&Iacute;A DE NING&Uacute;N TIPO. MEE EST&Aacute; EXENTA DE CUALQUIER GARANT&Iacute;A O CONDICI&Oacute;N EN CUANTO A QUE ESTE SITIO WEB Y/O APLICACI&Oacute;N M&Oacute;VIL, SUS SERVIDORES O CUALQUIER CORREO ELECTR&Oacute;NICO ENVIADO DESDE MEE EST&Eacute;N LIBRES DE VIRUS U OTROS COMPONENTES PERJUDICIALES. POR EL PRESENTE, MEE NO SE HACE RESPONSABLE DE NINGUNA GARANT&Iacute;A NI CONDICI&Oacute;N CON RESPECTO A ESTA INFORMACI&Oacute;N, SOFTWARE, PRODUCTOS Y SERVICIOS, INCLUIDAS TODAS LAS GARANT&Iacute;AS Y CONDICIONES IMPL&Iacute;CITAS DE COMERCIALIZACI&Oacute;N, ADECUACI&Oacute;N PARA UN FIN PARTICULAR, T&Iacute;TULOS E INCUMPLIMIENTO.</p>
+            <p>&nbsp;</p>
+            <p>LOS PROVEEDORES TERCEROS QUE OFRECEN PRODUCTOS O SERVICIOS EN ESTE SITIO WEB Y/O APLICACI&Oacute;N M&Oacute;VIL SON CONTRATISTAS INDEPENDIENTES Y NO SON AGENTES NI EMPLEADOS DE MEE. MEE NO ES RESPONSABLE POR LOS ACTOS, LOS ERRORES, LAS OMISIONES, LAS DECLARACIONES, LAS GARANT&Iacute;AS, LOS INCUMPLIMIENTOS O LA NEGLIGENCIA DE DICHOS PROVEEDORES O POR CUALQUIER LESI&Oacute;N PERSONAL, MUERTE, DA&Ntilde;OS A LA PROPIEDAD U OTROS DA&Ntilde;OS O GASTOS QUE SE GENERARAN A PARTIR DE ELLO. MEE NO SE RESPONSABILIZA Y NO HAR&Aacute; REEMBOLSOS EN CASO DE DEMORAS, CANCELACIONES, EXCESO DE RESERVAS, HUELGAS, CAUSAS DE FUERZA MAYOR U OTRAS CAUSAS QUE EST&Eacute;N FUERA DE SU CONTROL DIRECTO, Y NO SE RESPONSABILIZA POR NING&Uacute;N GASTO ADICIONAL, OMISI&Oacute;N, DEMORA O ACTOS DE GOBIERNO O AUTORIDAD.</p>
+            <p>&nbsp;</p>
+            <p>MEE (O SUS ASOCIADOS, REPRESENTANTES, FUNCIONARIOS, DIRECTORES Y AFILIADAS) NO SON RESPONSABLES BAJO NINGUNA CIRCUNSTANCIA, POR CUALQUIER DA&Ntilde;O DIRECTO, INDIRECTO, PUNITIVO, ACCIDENTAL, ESPECIAL O RESULTANTE QUE SE PRODUZCA O SE RELACIONE DE ALGUNA MANERA CON EL ACCESO, LA VISUALIZACI&Oacute;N O EL USO QUE USTED HAGA DE ESTE SITIO WEB Y/O APLICACI&Oacute;N M&Oacute;VIL O CON LA DEMORA O LA INCAPACIDAD DE ACCEDER, VISUALIZAR O UTILIZAR ESTE SITIO WEB Y/O APLICACI&Oacute;N M&Oacute;VIL (LO QUE INCLUYE, ENTRE OTROS, SU CONFIANZA EN LOS COMENTARIOS Y LAS OPINIONES QUE APARECEN EN ESTE SITIO WEB Y/O APLICACI&Oacute;N M&Oacute;VIL; CUALQUIER VIRUS INFORM&Aacute;TICO, INFORMACI&Oacute;N, SOFTWARE, SITIOS VINCULADOS, PRODUCTOS Y SERVICIOS OBTENIDOS A TRAV&Eacute;S DE ESTE SITIO WEB Y/O APLICACI&Oacute;N M&Oacute;VIL; O QUE SURJAN DE OTRO MODO DEL ACCESO, VISUALIZACI&Oacute;N O USO DE ESTE SITIO WEB Y/O APLICACI&Oacute;N M&Oacute;VIL), YA SEA SOBRE LA BASE DE LA TEOR&Iacute;A DE LA NEGLIGENCIA, EN VIRTUD DE UN CONTRATO, POR RESPONSABILIDAD EXTRACONTRACTUAL, RESPONSABILIDAD ESTRICTA O DE OTRO MODO, E INCLUSO SI MEE HA SIDO NOTIFICADO SOBRE LA POSIBILIDAD DE QUE SE PRODUZCAN DICHOS DA&Ntilde;OS.</p>
+            <p>&nbsp;</p>
+            <p>MEE no ser&aacute; responsable por cualquier da&ntilde;o o p&eacute;rdida que surja o se relacione de cualquier manera con el uso que usted haga de nuestro Sitio Web y/o Aplicaci&oacute;n M&oacute;vil o servicios con los terceros Proveedores.</p>
+            <p>&nbsp;</p>
+            <p>La limitaci&oacute;n de responsabilidad refleja la asignaci&oacute;n de riesgos entre las partes. Las limitaciones especificadas en esta secci&oacute;n permanecer&aacute;n y se aplicar&aacute;n incluso si se resolviese que cualquier recurso limitado especificado en estos t&eacute;rminos no cumple con su objetivo esencial. Las limitaciones de responsabilidad establecidas en estos t&eacute;rminos act&uacute;an en beneficio de MEE.</p>
+            <p>&nbsp;</p>
+            <p><strong>INDEMNIZACI&Oacute;N</strong></p>
+            <p>&nbsp;</p>
+            <p>Usted acepta defender e indemnizar a MEE y sus afiliadas y a cualquiera de sus funcionarios, directores, empleados y agentes por cualquier reclamo, causa de acci&oacute;n, demanda, contingencia, p&eacute;rdida, da&ntilde;o, multa, sanci&oacute;n u otros costos o gastos de cualquier tipo o naturaleza, incluidos, sin limitarse a, los honorarios razonables por servicios legales y de contabilidad ofrecidos por terceros como consecuencia de su:</p>
+            <p>&nbsp;</p>
+            <ul>
+                <li>(i) incumplimiento del presente Acuerdo o los documentos a los que se hace referencia en el presente;</li>
+                <li>(ii) violaci&oacute;n de cualquier ley o derecho de un tercero; o</li>
+                <li>(iii) uso de este Sitio Web y/o Aplicaci&oacute;n M&oacute;vil.</li>
+            </ul>
+            <p>&nbsp;</p>
+            <p><strong>V&Iacute;NCULOS A SITIOS DE TERCEROS</strong></p>
+            <p><strong>&nbsp;</strong></p>
+            <p>Este Sitio Web y/o Aplicaci&oacute;n M&oacute;vil puede contener hiperv&iacute;nculos a los sitios web operados por terceros adem&aacute;s de MEE. Dichos hiperv&iacute;nculos se proporcionan con fines de referencia &uacute;nicamente. No controlamos dichos sitios web ni somos responsables por su contenido o la privacidad u otras pr&aacute;cticas de dichos sitios web. Adem&aacute;s, depende de usted tomar precauciones para asegurarse de que los v&iacute;nculos que selecciona o el software que descarga (ya sea que provenga de este Sitio Web y/o Aplicaci&oacute;n M&oacute;vil o de otros sitios web) no contengan elementos como virus, gusanos, troyanos, defectos y otros elementos de naturaleza destructiva. La incorporaci&oacute;n de hiperv&iacute;nculos que efectuamos a dichos sitios web no implica un aval del material que all&iacute; se encuentra ni ninguna asociaci&oacute;n con sus operadores.</p>
+            <p>&nbsp;</p>
+            <p><strong>SOFTWARE DISPONIBLE EN ESTE SITIO WEB Y/O APLICACI&Oacute;N M&Oacute;VIL</strong></p>
+            <p><strong>&nbsp;</strong></p>
+            <p>A menos que se indique lo contrario, los materiales en el Sitio Web y/o Aplicaci&oacute;n M&oacute;vil se presentan &uacute;nicamente para brindar informaci&oacute;n relacionada con y para promover los servicios de los terceros Proveedores, los sitios web, los socios y otros productos de MEE disponibles en los Estados Unidos Mexicanos, sus territorios y posesiones. MEE controla y opera sus Sitios Web desde sus oficinas en el Estado de Baja California en los Estados Unidos Mexicanos. Aquellas personas que opten por acceder al Sitio Web y/o Aplicaci&oacute;n M&oacute;vil de MEE desde fuera de los Estados Unidos Mexicanos lo hacen bajo su propia iniciativa y tienen la responsabilidad de cumplir con las leyes locales, en la medida en que estas se apliquen. El software de los sitios web de MEE est&aacute; sujeto a las leyes los Estados Unidos Mexicanos.</p>
+            <p>&nbsp;</p>
+            <p>Cualquier software disponible para descargarse del Sitio Web y/o Aplicaci&oacute;n M&oacute;vil de MEE (&ldquo;Software&rdquo;) constituye obra protegida con derechos de autor de MEE, o de las afiliadas de MEE, o de otro software de terceros seg&uacute;n se identifique. Para cualquier Software que se encuentre disponible para su descarga en este Sitio Web y/o Aplicaci&oacute;n M&oacute;vil y que no est&eacute; acompa&ntilde;ado por un Acuerdo de Licencia, por el presente otorgamos a usted, el usuario, una licencia limitada, personal, intransferible para usar el Software para visualizar y de otro modo, usar este Sitio Web y/o Aplicaci&oacute;n M&oacute;vil de acuerdo con estos t&eacute;rminos y condiciones y sin otro fin.</p>
+            <p>&nbsp;</p>
+            <p>Tenga en cuenta que todo el Software, lo que incluye, sin limitaciones, HTML, XML, c&oacute;digo Java y los controles Active X que contiene este Sitio Web y/o Aplicaci&oacute;n M&oacute;vil, son propiedad de MEEo sus afiliadas, y est&aacute;n protegidos por leyes de derechos de autor y disposiciones de tratados internacionales. Cualquier reproducci&oacute;n o redistribuci&oacute;n del Software se encuentra expresamente prohibida y puede provocar sanciones civiles y penales graves. Los infractores ser&aacute;n procesados en la m&aacute;xima medida posible.</p>
+            <p>&nbsp;</p>
+            <p>En caso de que el Sitio Web y/o Aplicaci&oacute;n M&oacute;vil resulte incompatible con el software del equipo de c&oacute;mputo o dispositivo m&oacute;vil mediante el cual el Usuario intente acceder al Sitio Web y/o Aplicaci&oacute;n M&oacute;vil, MEE no se hace responsable por cualquier inconveniente o perjuicio que pudiera causarle al Usuario. Tampoco se hace responsable de cualquier virus, spyware o cualquier programa no autorizado, dado que MEE cuenta con los controles razonables, pero es bien sabido que la web tiene muchos riesgos de intervenci&oacute;n de terceros no autorizados, por lo que, se sugiere utilizar antivirus y spywares.</p>
+            <p>&nbsp;</p>
+            <p>SIN LIMITAR LO ANTERIORMENTE DICHO, SE PROH&Iacute;BE EXPRESAMENTE LA COPIA O LA REPRODUCCI&Oacute;N DEL SOFTWARE A CUALQUIER OTRO SERVIDOR O UBICACI&Oacute;N PARA SU REPRODUCCI&Oacute;N O REDISTRIBUCI&Oacute;N.</p>
+            <p>&nbsp;</p>
+            <p><strong>AVISOS DE DERECHOS DE AUTOR Y MARCAS REGISTRADAS</strong></p>
+            <p>&nbsp;</p>
+            <p>Todo el contenido de este Sitio Web y/o Aplicaci&oacute;n M&oacute;vil es de: ___________________________. Todos los derechos reservados. MEE no se responsabiliza por el contenido de los sitios web operados por terceros que no sean MEE. MEE, el logotipo y todos los otros nombres de productos o servicios o los esl&oacute;ganes que aparecen en este Sitio Web y/o Aplicaci&oacute;n M&oacute;vil est&aacute;n registrados y/o son marcas registradas y no pueden copiarse, imitarse o usarse, en su totalidad o en parte, sin el permiso previo por escrito de MEE o del titular de la marca comercial correspondiente. Adem&aacute;s, el aspecto de este Sitio Web y/o Aplicaci&oacute;n M&oacute;vil, incluidos todos los encabezados de p&aacute;gina, los gr&aacute;ficos personalizados, los &iacute;conos de bot&oacute;n y las secuencias de comandos, es la marca de servicio, la marca comercial y/o la imagen comercial de MEE y no pueden copiarse, imitarse o usarse, en su totalidad o en parte, sin el permiso previo por escrito de MEE. Todas las otras marcas comerciales, marcas comerciales registradas, nombres de productos y nombres o logos de empresas mencionados en este Sitio Web y/o Aplicaci&oacute;n M&oacute;vil son de la propiedad de sus due&ntilde;os correspondientes. La referencia a los productos, servicios, procesos u otra informaci&oacute;n, por marca comercial, marca registrada, fabricante, proveedor u otros no constituye ni implica el consentimiento, el respaldo o el apoyo de estos por parte de MEE.</p>
+            <p>&nbsp;</p>
+            <p>Si tiene conocimientos de una infracci&oacute;n de cualquiera de sus marcas o de nuestra marca, inf&oacute;rmenos al respecto mediante correo electr&oacute;nico a _____________________.</p>
+            <p>&nbsp;</p>
+            <p><strong>JURISDICCI&Oacute;N Y LEY APLICABLE</strong></p>
+            <p><strong>&nbsp;</strong></p>
+            <p>El presente Contrato se rige e interpreta conforme a la legislaci&oacute;n de la jurisdicci&oacute;n en las que MEE est&aacute; presente. MEE y el Usuario podr&aacute;n someter cualquier controversia que pudiera producirse del uso o acceso al Sitio Web y/o Aplicaci&oacute;n M&oacute;vil objeto del presente Contrato a los Juzgados o cualquier autoridad p&uacute;blica, estatal o federal del domicilio de MEE, a menos que legalmente se establezca lo contrario.</p>
+            <p>&nbsp;</p>
+            <p><strong>CL&Aacute;USULAS: NULIDAD O INEFICACIA</strong></p>
+            <p><strong>&nbsp;</strong></p>
+            <p>Si alguna cl&aacute;usula de los presentes T&eacute;rminos y Condiciones fuese declarada total o parcialmente nula o ineficaz, solo dicha disposici&oacute;n o parte de ella se considerar&aacute; no incluida o no aplicable, permaneciendo en plenitud los T&eacute;rminos y Condiciones en todo lo dem&aacute;s.</p>
+            <p>&nbsp;</p>
+            <p><strong>AYUDA DE SERVICIO</strong></p>
+            <p><strong>&nbsp;</strong></p>
+            <p>Para obtener respuestas a sus preguntas o para cualquier queja o sugerencia puede contactarse con nosotros al correo electr&oacute;nico _____________________.</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&Uacute;ltima actualizaci&oacute;n hecha en fecha 23 de marzo de 2021.</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <a href="https://emenu.live/mee/terms.pdf" target="" rel="noopener noreferrer"><b>DESCARGAR</b></a>
+        </div>
+    )
+}

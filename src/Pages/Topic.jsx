@@ -7,17 +7,18 @@ import Logo from '@/Assets/img/pbh_2.png'
  export const Topic = () => {
     const [topic, setTopic] = useState({})
     const { id } = useParams();
-    
     useEffect(() => {
+        window.scrollTo(0, 0);
         topicService.getSingleTopic(id)
         .then(topic => setTopic(topic))
         .catch(err => console.log(err))
     }, []);
+
     
     return (
         <Fragment>
             <Navbar logo={Logo} />
-                <div className="flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+                <div  className="flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
                     <div className="w-full p-4">
                         <div>
                             <h2 className="mt-6 text-center text-3xl font-semibold text-gray-900">
