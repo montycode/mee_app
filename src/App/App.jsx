@@ -2,6 +2,8 @@ import React from 'react';
 import { Router, Route } from 'react-router-dom';
 import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
+import ReactNotification from 'react-notifications-component';
+import 'react-notifications-component/dist/theme.css';
 
 import { history } from '@/Helpers';
 import { authenticationService } from '@/Services';
@@ -32,6 +34,7 @@ class App extends React.Component {
         return (
             <Router history={history}>
                 <main className="h-full bg-gray-50">
+                    <ReactNotification />
                     <Elements stripe={promise}>
                         <PrivateRoute exact path="/payment" component={Payment} />
                         {/* <Route exact path="/payment" component={Payment} /> */}

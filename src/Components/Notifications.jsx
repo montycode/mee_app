@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { getToken, onMessageListener } from '../firebase';
-import Logo from '@/Assets/img/pbh_icon.png'
+import Logo from '@/Assets/img/pbh_icon.png';
+import { store } from 'react-notifications-component';
+import 'animate.css/animate.min.css';
 
 export const Notifications = () => {  
     const [show, setShow] = useState(false);
@@ -10,23 +12,28 @@ export const Notifications = () => {
   
     onMessageListener().then(payload => {
       setShow(true);
-      setNotification({title: payload.notification.title, body: payload.notification.body})
+      setNotification({title: payload.notification.title, body: payload.notification.body});
+      notificationHandler();
       console.log(payload);
     }).catch(err => console.log('failed: ', err));
-    
-    return (
-        <>
-            <div class={'flex max-w-md bg-white shadow-lg rounded-lg overflow-hidden z-100' + (show ? ' ' : ' hidden' )}>
-                <div class="w-2 bg-gray-800"></div>
-                <div class="flex items-center px-2 py-3">
-                    <img class="w-10 h-10 object-cover rounded-full" src={Logo} />
-                    <div class="mx-3">
-                        <h2 class="text-sm font-semibold text-gray-800">{notification.title}</h2>
-                        <p class="text-gray-600 text-xs">{notification.body}.</p>
-                        <button className="border border-gray-700 bg-gray-700 text-white rounded-md px-2 py-1 transition duration-500 ease select-none hover:bg-gray-800 focus:outline-none focus:shadow-outline" onClick={() => setShow(false)}>Cerrar</button>
-                    </div>
-                </div>
-            </div>
-        </>
+
+    const notificationHandler = () => {
+      store.addNotification({
+        title: notification.title,
+        message: notification.body,
+        type: "info",
+        insert: "top",
+        container: "top-right",
+        animationIn: ["animate__animated", "animate__fadeIn"],
+        animationOut: ["animate__animated", "animate__fadeOut"],
+        dismiss: {
+          duration: 5000,
+          onScreen: true
+        }
+      });
+    }
+    return(
+      <>
+      </>
     )
 }
